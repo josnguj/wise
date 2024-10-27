@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WisePictures</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a36274a5a7.js" crossorigin="anonymous"></script>
+    <!--   swiper-->
+
+</head>
+
+<body>
+
+
+    <!--   navbar-->
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa fa-bars"></i>
+        </label>
+        <label class="logo">WiseMedia</label>
+        <ul>
+             <li><a class="active" href="index.html">Home</a></li>
+         <li><a href="AboutUs.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+           <li><a href="#">Contact</a></li>
+            <li><a href="blog.html">Blog</a></li> 
+        </ul>
+    </nav>
+    <!-- Swiper -->
+    <div class="main-text1">
+
+        <h2>Our Services</h2>
+        <small>At Wise Media, we believe in capturing moments that tell stories. Based in Kajiado Kimana, our photography and videography studio specializes in transforming your memories into stunning visual art.<br> With a passion for creativity and an eye for detail, we aim to deliver a personalized experience that reflects your unique vision.</small>
+    </div>
+
+    <!-- Swiper -->
+   <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+        <img src="images/1.jpg">
+        <div class="info">
+            <h3>Photography</h3>
+            <p>World Class Pictures</p>
+            <a href="#">Book Session By WhatasApp</a>
+        </div>
+    </div>
+    <div class="swiper-slide">
+        <img src="images/2.jpg">
+        <div class="info">
+            <h3>Videography</h3>
+            <p>World Class Pictures</p>
+            <a href="#">Book Session By WhatasApp</a>
+        </div>
+    </div>
+    <div class="swiper-slide">
+        <img src="images/3.jpg">
+        <div class="info">
+            <h3>Internet Connectivity</h3>
+            <p>SuperFast Internet</p>
+            <a href="#">Book Session By WhatasApp</a>
+        </div>
+    </div>
+    <div class="swiper-slide">
+        <img src="images/4.jpg">
+        <div class="info">
+            <h3>KRA Group Pin</h3>
+            <p>In 10 Minitues</p>
+            <a href="#">Book Session By WhatasApp</a>
+        </div>
+    </div>
+    <div class="swiper-slide">
+        <img src="images/5.jpg">
+        <div class="info">
+            <h3>VideoEditing</h3>
+            <p>Professional Video Editing</p>
+            <a href="#">Book Session By WhatasApp</a>
+        </div>
+    </div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+</div>
+<!--sliders scripts-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ <script>
+        const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'vertical',
+  loop: true,
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+    </script>
+
+   
+
+    <!--   footer-->
+    <div class="footer">
+        <div class="col-1">
+            <h3>USEFUL LINKS</h3>
+            <a href="#">Contact us</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Blog</a>
+            <a href="#">Home</a>
+
+
+        </div>
+        <div class="col-2">
+            <h3>NEWSLETTER</h3>
+            <form>
+                <input type="email" placeholder="Your Email" required>
+                <br>
+                <button type="submit">
+                    SUBMIT
+                </button>
+            </form>
+        </div>
+        <div class="col-3">
+            <h3>CONTACT</h3>
+            <i class="fa-solid fa-location-dot"></i>
+            <p>Kajiado South <br>Kimana opposite Market</p>
+            <div class="social-icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa-brands fa-facebook"></i>
+
+                <i class="fa-solid fa-phone"></i>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
